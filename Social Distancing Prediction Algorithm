@@ -3,19 +3,19 @@ Step 1: Once the image reader or VideoCature is setUp ,the reader returns two va
  a:Whether the camera is On or No.
  b:It captures a photo in real time and displays the clicked image
 
-Step 2 : By using the face model haarcascade data we count the number of faces detected in real time else when the no of faces recorded is zero it goes back to step 1.
+Step 2 : By using the face model haarcascade data we count the number of faces detected in real time else when the no of faces/people recorded is zero it goes back to step 1.
 
 Step 3 : When we have the number of faces detected ,
 we run a "for" loop for the number of faces and detect the mid axes in both 'x' and 'y' cordinates.
 
 Step 4 : Based on the 'x'and 'y' cordiantes we append the data captured in an array.
 
-Step 5 : Once the cordinates are set we create rectangles around the faces detected and displays the number of faces in the frame
+Step 5 : Once the cordinates are set we create rectangles around the faces/people detected and displays the number of faces/people in the frame
 
-Step 6 : When the number of faces detected is 2 ,we use the euclidean metric to measure the distance between the two faces being detected using a line which acts as a bridge between two images.
+Step 6 : When the number of faces/people detected is 2 ,we use the euclidean metric to measure the distance between the two faces being detected using a line which acts as a bridge between two images.
 
 Step 7 : We set up a threshold distance which should be maintained to not voilate the social distancing norms
 
-Step 8 : Based on set up threshold ,when faces  detected are more than 1 it calculates the distance between both faces and alerts when the threshold set-up is violated
+Step 8 : Based on set up threshold ,when faces  detected are more than 1 it calculates the distance between both faces/people and alerts when the threshold set-up is violated
 
 Step 9 : Stop the process and go back to Step 1
